@@ -1,5 +1,5 @@
 .title{
-    color: #0061F7;
+    color: #000;
 font-family: Inter;
 font-size: 36px;
 font-style: normal;
@@ -11,4 +11,14 @@ letter-spacing: 0.36px;
     // background-color:white;
     // width: 100vw;
     padding: 10px;
+}
+.iconButton__link{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    padding : 10px 40px;
+    background: rgb(255,201,71);
+    border-radius: 10px;
+
 }

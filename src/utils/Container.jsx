@@ -20,11 +20,12 @@ const HeaderTitle=({title})=>{
   )
 }
 
-const IconButton=({link , title , icon})=>{
+const IconButton=({link , title , icon })=>{
     return(
         <NavLink className="iconButton__link" to={link}>
-          {icon}
+         
           {title}
+          {icon}
           </NavLink>
     )
 }
