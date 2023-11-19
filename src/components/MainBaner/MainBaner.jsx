@@ -9,6 +9,7 @@ const MainBaner = () => {
         <p>Qabul 2023</p>
         <Container.P>Oliy ta'lim muassasalarining magistratura bosqichiga kirish uchun onlayn ariza topshirish tizimi</Container.P>
         <IconButton title={"Ariza topshirish"}  icon={<HiOutlineArrowNarrowRight/>} />
+        <Container.BG/>
     </Container>
   )
 }
