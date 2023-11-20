@@ -2,20 +2,23 @@ import styled from "styled-components";
 import IMG1 from '../../assets/main1.png'
 
 export const Container = styled.div`
+
   margin: 100px  auto;
   padding: 0;
-  width: 100vw;
-  /* position: relative; */
+  padding-top:50px;
+  
+  width: 100%;
+  position: relative; 
   &::after{
     position: absolute;
     content: "";
     background: no-repeat url(${IMG1});
     background-size: contain;
     
-    width: 600px;
+    width: 550px;
     height: 600px;
-    top: 250px;
-    left: 1050px;
+    top: 0px;
+    left: 700px;
   }
   & > p{
  font-size: 60px;
@@ -36,9 +39,9 @@ z-index: 100;
 `
 Container.BG= styled.div`
     position: absolute;
-    right: 200px;
-    bottom: 48px;
+    right: -70px;
     width: 638px;
+    top:0px;
     height: 575.84px;
     background: linear-gradient(148.79deg,#f82c2c 12.9%,#ec874e 29.15%,#e78b20 41.54%,#6c3df4 54.7%,#ff2633 70.18%,#ff1818 87.21%);
     filter: blur(70px);
