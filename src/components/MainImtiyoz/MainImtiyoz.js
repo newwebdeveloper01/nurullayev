@@ -44,5 +44,9 @@ height:300px;
 -webkit-box-shadow: 4px 4px 23px 1px rgba(34, 60, 80, 0.59);
 -moz-box-shadow: 4px 4px 23px 1px rgba(34, 60, 80, 0.59);
 box-shadow: 4px 4px 23px 1px rgba(34, 60, 80, 0.59);
+transition: 0.5s linear;
 }
+`
+Container.Video=styled.div`
+  margin-bottom: 100px;
 `

@@ -48,3 +48,7 @@ Container.BG= styled.div`
     border-radius: 250px 280px 300px 100px;
     z-index: 0;
 `
+
+Container.Video=styled.div`
+  
+`

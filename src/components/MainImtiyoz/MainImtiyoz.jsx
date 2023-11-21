@@ -61,6 +61,25 @@ const MainImtiyoz = () => {
 
       </NavLink>
 </div>
+
+<Container.Video>
+  <div className="d-flex align-items-center p-3 mt-5 mb-5">
+    <h4 style={{fontSize:"50px" ,textAlign:"start"}}>
+    Qabul tizimdan qanday foydalaniladi?
+    </h4>
+    <p style={{color:"#090909",fontSize:"15px" ,textAlign:"start"}}>
+    Magistratura bosqichiga kirish uchun onlayn ariza topshirish bo‘yicha quyidagi video yo‘riqnoma orqali tanishishingiz mumkin.
+    </p>
+  </div>
+      <iframe
+      width="100%"
+      height="627"
+      src="https://www.youtube.com/embed/EVkrqIGKYGg"
+      frameBorder="0"
+      allowFullScreen
+    ></iframe>
+
+      </Container.Video>
     </Container>
   )
 }

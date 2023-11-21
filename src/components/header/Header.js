@@ -12,6 +12,7 @@ export const Container = styled.div`
 
 Container.Img = styled.img`
   width: 100px;
+  user-select: none;
   /* display: block; */
 `;
 Container.Many=styled.div`

@@ -12,7 +12,7 @@ const Container = ({children}) => {
 
 const HeaderTitle=({title})=>{
   return(
-    <div className=' header_title'>
+    <div className=' header_title  '>
       
         <p className='title ps-5 pt-3 pb-2'>{title}</p>
       
@@ -50,5 +50,14 @@ const Button = ({type, title, icon}) => {
   )
 }
 
+const StepIcon=({number , classNam=""})=>{
+  console.log(classNam)
+  return(
+  <div className="step__icon" style={{classNam}}>
+        <p>{number}</p>
+    </div>
+  )
+}
 
-export {Container , IconButton,ButtonIcon,Button , HeaderTitle} 
+
+export {Container , IconButton,ButtonIcon,Button , HeaderTitle , StepIcon} 
